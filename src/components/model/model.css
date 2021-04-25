@@ -1,0 +1,43 @@
+.btn-widget {
+    padding: 10px 30px;
+    background: #595959;
+    color: #fff;
+    border: none;
+    transform: rotate(270deg);
+    position: absolute;
+    right: -45px;
+    top: 350px;
+}
+/* .model-sec{
+    position: relative;
+} */
+.outter-sec{
+    padding: 51px;
+    overflow-y: scroll;
+    height: 300px;
+}
+.inner-sec{
+    position: relative;   
+}
+.search-sec{
+    position: absolute;
+    top: -45px;
+}
+.close{
+    position: absolute;
+    right: -15px;
+    top: -45px;
+}
+.line-graph {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+    .line-graph{
+        top:100%;
+        right: 0;
+    }
+}

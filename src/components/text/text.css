@@ -1,0 +1,13 @@
+.input{
+    background: transparent;
+    border: none;
+    padding: 10px;
+    color: #fff;
+}
+input:-internal-autofill-selected {
+   background-color: blue  !important; 
+}
+
+.container{
+    height: auto;
+}

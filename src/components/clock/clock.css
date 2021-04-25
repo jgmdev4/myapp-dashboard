@@ -1,0 +1,19 @@
+.time{
+        font-size: 24px;
+        color: #2e4a66;
+}
+.App{
+        position: absolute;
+        top: 20px;
+        right: 70px;
+    }
+
+@media only screen and (max-width: 767px) {
+        .App{
+                top:85px;
+                right: 0;
+        }
+        .time {
+                font-size: 18px;
+        }
+}
